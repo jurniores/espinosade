@@ -10,7 +10,7 @@ btn.addEventListener("click", Converte);
 function Converte(e){
     let val = input.value;
     if(val.length <= 0) return;
-    ph2.innerHTML = (val*0,675)/100+"g"
+    ph2.innerHTML = (val*0.675)/100+"g"
     sh2.innerHTML = (val/2)/100+" Qtd";
     input.value = "";
 }
